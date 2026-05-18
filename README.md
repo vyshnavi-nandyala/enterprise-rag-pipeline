@@ -4,6 +4,7 @@ A production-grade Retrieval-Augmented Generation (RAG) system that lets employe
 
 ---
 
+
 ## Architecture
 
 ```
