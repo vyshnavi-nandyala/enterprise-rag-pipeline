@@ -1,0 +1,57 @@
+# Environment / secrets — keep example template, ignore actual secrets
+.env
+.env.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Terraform
+infra/terraform/.terraform/
+infra/terraform/.terraform.lock.hcl
+infra/terraform/terraform.tfstate
+infra/terraform/terraform.tfstate.backup
+infra/terraform/tfplan
+infra/terraform/override.tf
+infra/terraform/override.tf.json
+
+# Logs
+*.log
+*.jsonl
+audit.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+.dockerignore
